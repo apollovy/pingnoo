@@ -99,7 +99,7 @@ endif()
 
 if(APPLE)
     if (QT_VERSION_MAJOR GREATER 5)
-        set(CMAKE_OSX_DEPLOYMENT_TARGET 10.14)
+        set(CMAKE_OSX_DEPLOYMENT_TARGET 10.15)
     else()
         set(CMAKE_OSX_DEPLOYMENT_TARGET 10.13)
     endif()

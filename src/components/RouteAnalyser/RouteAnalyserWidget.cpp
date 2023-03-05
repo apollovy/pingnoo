@@ -407,6 +407,10 @@ auto Nedrysoft::RouteAnalyser::RouteAnalyserWidget::onRouteResult(
 
             m_pingData.append(pingData);
 
+            if (host.isNull()) {
+                continue;
+            }
+
             for (auto masker : Nedrysoft::ComponentSystem::getObjects<Nedrysoft::Core::IHostMasker>()) {
                 masker->mask(hop, hostName, hostAddress, maskedHostName, maskedHostAddress);
             }

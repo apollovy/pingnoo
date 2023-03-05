@@ -32,8 +32,8 @@ add_subdirectory(PublicIPHostMasker)
 add_subdirectory(RegExHostMasker)
 add_subdirectory(RouteAnalyser)
 add_subdirectory(RouteEngine)
-add_subdirectory(JitterPlot)
-add_subdirectory(SystemTray)
+#add_subdirectory(JitterPlot)
+#add_subdirectory(SystemTray)
 
 set(NEDRYSOFT_COMPONENTSYSTEM_COMPONENTVIEWER ON)
 

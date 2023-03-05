@@ -43,7 +43,7 @@ auto Nedrysoft::RouteAnalyser::RouteDiscoveryWidget::setTarget(QString target) -
 }
 
 auto Nedrysoft::RouteAnalyser::RouteDiscoveryWidget::setProgress(int currentHop, int totalHops, int maximumTTL) -> void {
-    if (totalHops==-1) {
+    if (totalHops < 0) {
         ui->hopsLabel->setText(QString("<center>(Maximum Hops %1)</center>").arg(maximumTTL));
 
         ui->progressBar->setMinimum(0);
