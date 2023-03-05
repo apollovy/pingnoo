@@ -3,7 +3,7 @@
 	url = https://github.com/nedrysoft/componentsystem
 [submodule "src/libs/Ribbon"]
 	path = src/libs/Ribbon
-	url = https://github.com/nedrysoft/qt-ribbon
+	url = https://github.com/apollovy/qt-ribbon
 [submodule "src/libs/SettingsDialog"]
 	path = src/libs/SettingsDialog
 	url = https://github.com/nedrysoft/SettingsDialog
@@ -18,7 +18,7 @@
 	url = https://github.com/gabime/spdlog.git
 [submodule "src/libs/ThemeSupport"]
 	path = src/libs/ThemeSupport
-	url = https://github.com/nedrysoft/ThemeSupport
+	url = https://github.com/apollovy/ThemeSupport
 [submodule "src/libs/MacHelper"]
 	path = src/libs/MacHelper
 	url = https://github.com/nedrysoft/MacHelper
